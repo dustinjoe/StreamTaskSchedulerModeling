@@ -1,0 +1,1525 @@
+{
+    "bases": {},
+    "root": {
+        "path": "",
+        "guid": "03d36072-9e09-7866-cb4e-d0a36ff825f6"
+    },
+    "relids": {
+        "03d36072-9e09-7866-cb4e-d0a36ff825f6": null,
+        "047da1c0-8b00-d819-f73a-ff3a0fe8a612": "2007012923",
+        "0f700217-3005-957a-869d-b62ad1722cfc": "351364737",
+        "12a38248-5a7a-428d-6ba7-2dd58eb96fe0": "1440081121",
+        "1d560a80-82ae-c8db-fc6a-422afe4b39dd": "1062358092",
+        "22cbbbd0-e383-be00-3d6f-4509b88a4589": "1169075607",
+        "34b4f9c7-e418-5abc-c4d5-c1019f42dbd2": "1518111825",
+        "37fc4228-38c4-f0b6-bec9-4c4685b8c7fc": "1742875111",
+        "3817dab5-2138-5b33-bc96-28430af8fb32": "125845890",
+        "38b21b05-09bf-7181-0e1c-d7428e3d076e": "909339777",
+        "4641da28-d4be-8ad1-cb82-50f61ff4de07": "222802250",
+        "46ce07a0-575e-2ebe-805a-a52223ab1ed6": "159661526",
+        "4b7aa85d-ab48-0d39-015b-c42b41ab857d": "685131383",
+        "4e16e223-7a08-b415-30fb-5e5141598c05": "1099881058",
+        "56e85487-9062-fab3-cb14-c47a80d93801": "1369917126",
+        "5b3b0483-2413-f175-fa63-97d5e0851fba": "1829395557",
+        "6142e6db-2edb-439d-085a-4546ea60084e": "318746662",
+        "682bbfe9-48c6-9de0-2a45-3315bca7c7cf": "1416392928",
+        "7d234277-52fb-20a3-a9e6-333f133e8ac8": "160622139",
+        "7d45c3a5-0772-a6bf-2972-80b09e3e4b5f": "168765480",
+        "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f": "2024445629",
+        "801844b3-d08a-5d71-f8f6-a943fccdd3de": "265115298",
+        "8255fadf-0bd5-d4a8-2ef4-b1bf5f761745": "123842415",
+        "905c77de-255e-5c0a-b035-90bebb1fa81a": "235091636",
+        "926af536-0c48-e3a7-96b3-fe4c98d0ddb7": "1996059387",
+        "96eca9bc-9e50-5ba3-19e7-fb14b5ccbc4d": "1936623110",
+        "978dcd53-fbb4-8473-5ac1-0f0ff6fdc50f": "205934659",
+        "9c7490b3-a472-158a-9d24-8ca53955736c": "1609855123",
+        "aa74d1ca-b310-838e-6cbb-3489053a1fa0": "780844451",
+        "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b": "1077978197",
+        "c15a6a0c-b875-74e6-4894-acac3568448d": "296263275",
+        "c831b0f8-0dc9-2981-84b9-a4abf6cc4535": "410188814",
+        "cc938b45-212f-c2a4-4564-3d299ee2f2af": "1422760723",
+        "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045": "1",
+        "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e": "666163433",
+        "d799addf-eb22-8471-0f3e-a5146ac905c8": "615025579",
+        "deddcf9b-e4de-8400-43d0-869ee6c6808e": "739462934",
+        "ed808f90-97c8-22cf-c3c1-bcd5d649a54f": "1675041679",
+        "f61f3ba5-029c-d771-7945-34eb2057bdf1": "1178174363",
+        "f7555169-3cbf-1412-a9c2-261ad52fda6e": "1083137865",
+        "f8fc18e6-db54-3cf1-51e5-df2a7693628f": "1242097160",
+        "fa8bb6c4-e21f-79b4-4840-422f30f44ae8": "1673989009"
+    },
+    "containment": {
+        "5b3b0483-2413-f175-fa63-97d5e0851fba": {
+            "047da1c0-8b00-d819-f73a-ff3a0fe8a612": {},
+            "1d560a80-82ae-c8db-fc6a-422afe4b39dd": {},
+            "22cbbbd0-e383-be00-3d6f-4509b88a4589": {},
+            "34b4f9c7-e418-5abc-c4d5-c1019f42dbd2": {},
+            "37fc4228-38c4-f0b6-bec9-4c4685b8c7fc": {},
+            "3817dab5-2138-5b33-bc96-28430af8fb32": {},
+            "4641da28-d4be-8ad1-cb82-50f61ff4de07": {},
+            "46ce07a0-575e-2ebe-805a-a52223ab1ed6": {},
+            "4b7aa85d-ab48-0d39-015b-c42b41ab857d": {},
+            "4e16e223-7a08-b415-30fb-5e5141598c05": {},
+            "56e85487-9062-fab3-cb14-c47a80d93801": {},
+            "7d45c3a5-0772-a6bf-2972-80b09e3e4b5f": {},
+            "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f": {},
+            "801844b3-d08a-5d71-f8f6-a943fccdd3de": {},
+            "8255fadf-0bd5-d4a8-2ef4-b1bf5f761745": {},
+            "905c77de-255e-5c0a-b035-90bebb1fa81a": {},
+            "926af536-0c48-e3a7-96b3-fe4c98d0ddb7": {},
+            "96eca9bc-9e50-5ba3-19e7-fb14b5ccbc4d": {},
+            "978dcd53-fbb4-8473-5ac1-0f0ff6fdc50f": {},
+            "aa74d1ca-b310-838e-6cbb-3489053a1fa0": {},
+            "c15a6a0c-b875-74e6-4894-acac3568448d": {},
+            "c831b0f8-0dc9-2981-84b9-a4abf6cc4535": {},
+            "cc938b45-212f-c2a4-4564-3d299ee2f2af": {},
+            "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e": {},
+            "ed808f90-97c8-22cf-c3c1-bcd5d649a54f": {},
+            "f7555169-3cbf-1412-a9c2-261ad52fda6e": {},
+            "fa8bb6c4-e21f-79b4-4840-422f30f44ae8": {}
+        },
+        "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045": {},
+        "d799addf-eb22-8471-0f3e-a5146ac905c8": {
+            "0f700217-3005-957a-869d-b62ad1722cfc": {},
+            "12a38248-5a7a-428d-6ba7-2dd58eb96fe0": {},
+            "38b21b05-09bf-7181-0e1c-d7428e3d076e": {},
+            "6142e6db-2edb-439d-085a-4546ea60084e": {},
+            "682bbfe9-48c6-9de0-2a45-3315bca7c7cf": {},
+            "7d234277-52fb-20a3-a9e6-333f133e8ac8": {},
+            "9c7490b3-a472-158a-9d24-8ca53955736c": {},
+            "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b": {},
+            "deddcf9b-e4de-8400-43d0-869ee6c6808e": {},
+            "f61f3ba5-029c-d771-7945-34eb2057bdf1": {},
+            "f8fc18e6-db54-3cf1-51e5-df2a7693628f": {}
+        }
+    },
+    "nodes": {
+        "03d36072-9e09-7866-cb4e-d0a36ff825f6": {
+            "attributes": {
+                "name": "StreamTaskScheduling"
+            },
+            "base": null,
+            "meta": {
+                "attributes": {
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "children": {
+                    "minItems": [
+                        -1
+                    ],
+                    "maxItems": [
+                        -1
+                    ],
+                    "items": [
+                        "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045"
+                    ]
+                }
+            },
+            "parent": null,
+            "pointers": {
+                "base": null
+            },
+            "registry": {
+                "MetaSheets": [
+                    {
+                        "SetID": "MetaAspectSet_68f8146d-b1b7-6c40-3464-f8c070e97e8d",
+                        "order": 0,
+                        "title": "META"
+                    },
+                    {
+                        "SetID": "MetaAspectSet_7ad23e73-6934-7d86-b085-59ae4d544ac4",
+                        "order": 1,
+                        "title": "TaskScheduler"
+                    }
+                ],
+                "ProjectRegistry": {
+                    "FCO_ID": "/1"
+                },
+                "usedAddOns": "",
+                "validDecorators": "ModelDecorator MetaDecorator UMLStateMachineDecorator",
+                "validPlugins": "NetworkRunner",
+                "validVisualizers": "ModelEditor"
+            },
+            "sets": {
+                "MetaAspectSet": [
+                    {
+                        "attributes": {},
+                        "guid": "0f700217-3005-957a-869d-b62ad1722cfc",
+                        "registry": {
+                            "position": {
+                                "x": 114,
+                                "y": 617
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "12a38248-5a7a-428d-6ba7-2dd58eb96fe0",
+                        "registry": {
+                            "position": {
+                                "x": 558,
+                                "y": 615
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+                        "registry": {
+                            "position": {
+                                "x": 414,
+                                "y": 323
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "6142e6db-2edb-439d-085a-4546ea60084e",
+                        "registry": {
+                            "position": {
+                                "x": 844,
+                                "y": 241
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "682bbfe9-48c6-9de0-2a45-3315bca7c7cf",
+                        "registry": {
+                            "position": {
+                                "x": 528,
+                                "y": 487
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "7d234277-52fb-20a3-a9e6-333f133e8ac8",
+                        "registry": {
+                            "position": {
+                                "x": 232,
+                                "y": 542
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "9c7490b3-a472-158a-9d24-8ca53955736c",
+                        "registry": {
+                            "position": {
+                                "x": 344,
+                                "y": 559
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b",
+                        "registry": {
+                            "position": {
+                                "x": 392,
+                                "y": 124
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+                        "registry": {
+                            "position": {
+                                "x": 100,
+                                "y": 100
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+                        "registry": {
+                            "position": {
+                                "x": 300,
+                                "y": 108
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "deddcf9b-e4de-8400-43d0-869ee6c6808e",
+                        "registry": {
+                            "position": {
+                                "x": 719,
+                                "y": 508
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "f61f3ba5-029c-d771-7945-34eb2057bdf1",
+                        "registry": {
+                            "position": {
+                                "x": 602,
+                                "y": 508
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "f8fc18e6-db54-3cf1-51e5-df2a7693628f",
+                        "registry": {
+                            "position": {
+                                "x": 386,
+                                "y": 533
+                            }
+                        }
+                    }
+                ],
+                "MetaAspectSet_68f8146d-b1b7-6c40-3464-f8c070e97e8d": [
+                    {
+                        "attributes": {},
+                        "guid": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+                        "registry": {
+                            "position": {
+                                "x": 100,
+                                "y": 100
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+                        "registry": {
+                            "position": {
+                                "x": 93,
+                                "y": 282
+                            }
+                        }
+                    }
+                ],
+                "MetaAspectSet_7ad23e73-6934-7d86-b085-59ae4d544ac4": [
+                    {
+                        "attributes": {},
+                        "guid": "0f700217-3005-957a-869d-b62ad1722cfc",
+                        "registry": {
+                            "position": {
+                                "x": 33,
+                                "y": 609
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "12a38248-5a7a-428d-6ba7-2dd58eb96fe0",
+                        "registry": {
+                            "position": {
+                                "x": 510,
+                                "y": 610
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+                        "registry": {
+                            "position": {
+                                "x": 414,
+                                "y": 323
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "6142e6db-2edb-439d-085a-4546ea60084e",
+                        "registry": {
+                            "position": {
+                                "x": 860,
+                                "y": 311
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "682bbfe9-48c6-9de0-2a45-3315bca7c7cf",
+                        "registry": {
+                            "position": {
+                                "x": 391,
+                                "y": 524
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "7d234277-52fb-20a3-a9e6-333f133e8ac8",
+                        "registry": {
+                            "position": {
+                                "x": 173,
+                                "y": 517
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "9c7490b3-a472-158a-9d24-8ca53955736c",
+                        "registry": {
+                            "position": {
+                                "x": 294,
+                                "y": 611
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b",
+                        "registry": {
+                            "position": {
+                                "x": 392,
+                                "y": 124
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "deddcf9b-e4de-8400-43d0-869ee6c6808e",
+                        "registry": {
+                            "position": {
+                                "x": 673,
+                                "y": 512
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "f61f3ba5-029c-d771-7945-34eb2057bdf1",
+                        "registry": {
+                            "position": {
+                                "x": 872,
+                                "y": 613
+                            }
+                        }
+                    },
+                    {
+                        "attributes": {},
+                        "guid": "f8fc18e6-db54-3cf1-51e5-df2a7693628f",
+                        "registry": {
+                            "position": {
+                                "x": 43.33333333333333,
+                                "y": 470.66666666666663
+                            }
+                        }
+                    }
+                ]
+            },
+            "constraints": {}
+        },
+        "047da1c0-8b00-d819-f73a-ff3a0fe8a612": {
+            "attributes": {
+                "event": "RawDataFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e",
+                "src": "978dcd53-fbb4-8473-5ac1-0f0ff6fdc50f"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "0f700217-3005-957a-869d-b62ad1722cfc": {
+            "attributes": {
+                "name": "PartitionKeyGenerator"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "tranactional_speed": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "Dashboard-speed.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 230,
+                    "y": 322
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "12a38248-5a7a-428d-6ba7-2dd58eb96fe0": {
+            "attributes": {
+                "ShardNum": 0,
+                "StreamNameTable": "",
+                "in_bandwidth": 1000000,
+                "name": "StreamProducer",
+                "out_bandwidth": 2000000
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "in_bandwidth": {
+                        "type": "integer"
+                    },
+                    "ShardNum": {
+                        "type": "integer"
+                    },
+                    "StreamNameTable": {
+                        "type": "string"
+                    },
+                    "tranactional_speed": {
+                        "type": "integer"
+                    },
+                    "out_bandwidth": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "Compound.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 515,
+                    "y": 248
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "1d560a80-82ae-c8db-fc6a-422afe4b39dd": {
+            "attributes": {
+                "name": "SecondOrderingBuffer",
+                "transactional_speed": "800"
+            },
+            "base": "682bbfe9-48c6-9de0-2a45-3315bca7c7cf",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "682bbfe9-48c6-9de0-2a45-3315bca7c7cf"
+            },
+            "registry": {
+                "position": {
+                    "x": 370,
+                    "y": 349
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "22cbbbd0-e383-be00-3d6f-4509b88a4589": {
+            "attributes": {
+                "event": "StreamFlow2"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "f7555169-3cbf-1412-a9c2-261ad52fda6e",
+                "src": "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "34b4f9c7-e418-5abc-c4d5-c1019f42dbd2": {
+            "attributes": {
+                "event": "RawStreamFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "926af536-0c48-e3a7-96b3-fe4c98d0ddb7",
+                "src": "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "37fc4228-38c4-f0b6-bec9-4c4685b8c7fc": {
+            "attributes": {
+                "ClickData": "http://www.google.com",
+                "avg_data_size": "2",
+                "data_blob": "search",
+                "name": "PC Producer"
+            },
+            "base": "f8fc18e6-db54-3cf1-51e5-df2a7693628f",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "f8fc18e6-db54-3cf1-51e5-df2a7693628f"
+            },
+            "registry": {
+                "position": {
+                    "x": 20,
+                    "y": 61
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "3817dab5-2138-5b33-bc96-28430af8fb32": {
+            "attributes": {
+                "bandwidth_requirement": "100",
+                "name": "Database(S3)",
+                "processing_capacity": "1000",
+                "transactional_speed": "250"
+            },
+            "base": "f61f3ba5-029c-d771-7945-34eb2057bdf1",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "f61f3ba5-029c-d771-7945-34eb2057bdf1"
+            },
+            "registry": {
+                "position": {
+                    "x": 751,
+                    "y": 179
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "38b21b05-09bf-7181-0e1c-d7428e3d076e": {
+            "attributes": {
+                "avg_data_size": 5,
+                "bandwidth_requirement": 10,
+                "data_blob": "",
+                "name": "StateBase",
+                "processing_capacity": 5000,
+                "transactional_speed": 1000
+            },
+            "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+            "meta": {
+                "attributes": {
+                    "avg_data_size": {
+                        "type": "integer"
+                    },
+                    "bandwidth_requirement": {
+                        "type": "integer"
+                    },
+                    "data_blob": {
+                        "type": "string"
+                    },
+                    "processing_capacity": {
+                        "type": "integer"
+                    },
+                    "transactional_speed": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045"
+            },
+            "registry": {
+                "isAbstract": true,
+                "position": {
+                    "x": 486,
+                    "y": 112
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "4641da28-d4be-8ad1-cb82-50f61ff4de07": {
+            "attributes": {
+                "event": "OrderedShardFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f",
+                "src": "c831b0f8-0dc9-2981-84b9-a4abf6cc4535"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "46ce07a0-575e-2ebe-805a-a52223ab1ed6": {
+            "attributes": {
+                "event": "RawDataFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e",
+                "src": "37fc4228-38c4-f0b6-bec9-4c4685b8c7fc"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "4b7aa85d-ab48-0d39-015b-c42b41ab857d": {
+            "attributes": {},
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "c831b0f8-0dc9-2981-84b9-a4abf6cc4535",
+                "src": "1d560a80-82ae-c8db-fc6a-422afe4b39dd"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "4e16e223-7a08-b415-30fb-5e5141598c05": {
+            "attributes": {
+                "event": "PartitionKey"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e",
+                "src": "7d45c3a5-0772-a6bf-2972-80b09e3e4b5f"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "56e85487-9062-fab3-cb14-c47a80d93801": {
+            "attributes": {
+                "event": "StreamFlow1"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "3817dab5-2138-5b33-bc96-28430af8fb32",
+                "src": "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "5b3b0483-2413-f175-fa63-97d5e0851fba": {
+            "attributes": {},
+            "base": "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b",
+            "meta": {},
+            "parent": "03d36072-9e09-7866-cb4e-d0a36ff825f6",
+            "pointers": {
+                "base": "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "6142e6db-2edb-439d-085a-4546ea60084e": {
+            "attributes": {
+                "bandwidth": 100,
+                "event": "DataFlowReady",
+                "name": "DataFlow",
+                "state": "Idle"
+            },
+            "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+            "meta": {
+                "attributes": {
+                    "event": {
+                        "type": "string"
+                    },
+                    "bandwidth": {
+                        "type": "integer"
+                    },
+                    "state": {
+                        "type": "string",
+                        "enum": [
+                            "Idle",
+                            "Busy",
+                            "Collapsed"
+                        ]
+                    }
+                },
+                "pointers": {
+                    "src": {
+                        "items": [
+                            "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+                        ],
+                        "min": 1,
+                        "max": 1,
+                        "minItems": [
+                            -1
+                        ],
+                        "maxItems": [
+                            1
+                        ]
+                    },
+                    "dst": {
+                        "items": [
+                            "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+                        ],
+                        "min": 1,
+                        "max": 1,
+                        "minItems": [
+                            -1
+                        ],
+                        "maxItems": [
+                            1
+                        ]
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+                "dst": null,
+                "src": null
+            },
+            "registry": {
+                "DisplayFormat": "$event",
+                "lineEndArrow": "block-xwide-xlong",
+                "position": {
+                    "x": 928,
+                    "y": 110
+                }
+            },
+            "sets": {},
+            "constraints": {
+                "exitEventReserved": {
+                    "script": "function(core, node, callback) {\n  var result = {\n    hasViolation: false,\n    message: ''\n  };\n  \n  if (core.getAttribute(node, 'name') === 'exit') {\n    result.hasViolation = true;\n    result.message = 'Event \"exit\" is reserved.';\n  }\n  callback(null, result);\n}",
+                    "priority": 1,
+                    "info": "Reserved event name \"exit\"."
+                }
+            }
+        },
+        "682bbfe9-48c6-9de0-2a45-3315bca7c7cf": {
+            "attributes": {
+                "BufferSize": 0,
+                "OrderingRule": "FIFO",
+                "name": "OrderingBuffer"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "OrderingRule": {
+                        "type": "string",
+                        "enum": [
+                            "FIFO",
+                            "Random",
+                            "Heap"
+                        ]
+                    },
+                    "BufferSize": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "Database.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 416,
+                    "y": 250
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "7d234277-52fb-20a3-a9e6-333f133e8ac8": {
+            "attributes": {
+                "BufferSize": 10000,
+                "SamplingPeriod": 0,
+                "name": "SamplingBuffer"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "BufferSize": {
+                        "type": "integer"
+                    },
+                    "SamplingPeriod": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "Router.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 222,
+                    "y": 252
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "7d45c3a5-0772-a6bf-2972-80b09e3e4b5f": {
+            "attributes": {
+                "bandwidth_requirement": "100",
+                "name": "TotalPartitionKeyGenerator",
+                "processing_capacity": "5000",
+                "transactional_speed": "2000"
+            },
+            "base": "0f700217-3005-957a-869d-b62ad1722cfc",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "0f700217-3005-957a-869d-b62ad1722cfc"
+            },
+            "registry": {
+                "position": {
+                    "x": 21,
+                    "y": 350
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "7fb19ac5-6b3f-4706-b12d-b0daaa009b4f": {
+            "attributes": {
+                "avg_data_size": "200",
+                "bandwidth_requirement": "100",
+                "name": "TotalStreamProducer",
+                "transactional_speed": "2000"
+            },
+            "base": "12a38248-5a7a-428d-6ba7-2dd58eb96fe0",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "12a38248-5a7a-428d-6ba7-2dd58eb96fe0"
+            },
+            "registry": {
+                "position": {
+                    "x": 582,
+                    "y": 238
+                },
+                "rotation": 0
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "801844b3-d08a-5d71-f8f6-a943fccdd3de": {
+            "attributes": {
+                "avg_data_size": "50",
+                "bandwidth_requirement": "1000",
+                "name": "TotalShardProducer",
+                "transactional_speed": "2000"
+            },
+            "base": "9c7490b3-a472-158a-9d24-8ca53955736c",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "9c7490b3-a472-158a-9d24-8ca53955736c"
+            },
+            "registry": {
+                "position": {
+                    "x": 200,
+                    "y": 240
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "8255fadf-0bd5-d4a8-2ef4-b1bf5f761745": {
+            "attributes": {
+                "event": "TaggedStream1"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "aa74d1ca-b310-838e-6cbb-3489053a1fa0",
+                "src": "926af536-0c48-e3a7-96b3-fe4c98d0ddb7"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "905c77de-255e-5c0a-b035-90bebb1fa81a": {
+            "attributes": {
+                "event": "TaggedStream2"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "3817dab5-2138-5b33-bc96-28430af8fb32",
+                "src": "926af536-0c48-e3a7-96b3-fe4c98d0ddb7"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "926af536-0c48-e3a7-96b3-fe4c98d0ddb7": {
+            "attributes": {
+                "avg_data_size": "200",
+                "bandwidth_requirement": "500",
+                "name": "TotalStreamPreProducer"
+            },
+            "base": "deddcf9b-e4de-8400-43d0-869ee6c6808e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "deddcf9b-e4de-8400-43d0-869ee6c6808e"
+            },
+            "registry": {
+                "position": {
+                    "x": 569,
+                    "y": 102
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "96eca9bc-9e50-5ba3-19e7-fb14b5ccbc4d": {
+            "attributes": {
+                "event": "SampledDataFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "801844b3-d08a-5d71-f8f6-a943fccdd3de",
+                "src": "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "978dcd53-fbb4-8473-5ac1-0f0ff6fdc50f": {
+            "attributes": {
+                "name": "MobileProducer"
+            },
+            "base": "f8fc18e6-db54-3cf1-51e5-df2a7693628f",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "f8fc18e6-db54-3cf1-51e5-df2a7693628f"
+            },
+            "registry": {
+                "position": {
+                    "x": 179,
+                    "y": 58
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "9c7490b3-a472-158a-9d24-8ca53955736c": {
+            "attributes": {
+                "MD5_Table": "",
+                "ShardNum": 0,
+                "ShardTable": "",
+                "name": "ShardProducer"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "ShardNum": {
+                        "type": "integer"
+                    },
+                    "ShardTable": {
+                        "type": "string"
+                    },
+                    "MD5_Table": {
+                        "type": "string"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "Folder2.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 316,
+                    "y": 249
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "aa74d1ca-b310-838e-6cbb-3489053a1fa0": {
+            "attributes": {
+                "avg_data_size": "200",
+                "name": "Application2",
+                "processing_capacity": "500",
+                "transactional_speed": "100"
+            },
+            "base": "f61f3ba5-029c-d771-7945-34eb2057bdf1",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "f61f3ba5-029c-d771-7945-34eb2057bdf1"
+            },
+            "registry": {
+                "position": {
+                    "x": 741,
+                    "y": 40
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "ac888c15-1e7d-6e40-e7e3-d3defd2fde7b": {
+            "attributes": {
+                "HeartBeat": "Working",
+                "name": "TaskScheduler"
+            },
+            "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+            "meta": {
+                "attributes": {
+                    "HeartBeat": {
+                        "type": "string",
+                        "enum": [
+                            "Working",
+                            "Down"
+                        ]
+                    }
+                },
+                "children": {
+                    "items": [
+                        "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+                        "6142e6db-2edb-439d-085a-4546ea60084e"
+                    ],
+                    "minItems": [
+                        -1,
+                        -1
+                    ],
+                    "maxItems": [
+                        -1,
+                        -1
+                    ]
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045"
+            },
+            "registry": {
+                "SVGIcon": "Arrow-right.svg",
+                "decorator": "ModelDecorator",
+                "position": {
+                    "x": 110,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "c15a6a0c-b875-74e6-4894-acac3568448d": {
+            "attributes": {
+                "event": "FirstShardDataFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "c831b0f8-0dc9-2981-84b9-a4abf6cc4535",
+                "src": "801844b3-d08a-5d71-f8f6-a943fccdd3de"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "c831b0f8-0dc9-2981-84b9-a4abf6cc4535": {
+            "attributes": {
+                "BufferSize": "50000",
+                "bandwidth_requirement": "1000",
+                "name": "FirstOrderingBuffer"
+            },
+            "base": "682bbfe9-48c6-9de0-2a45-3315bca7c7cf",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "682bbfe9-48c6-9de0-2a45-3315bca7c7cf"
+            },
+            "registry": {
+                "position": {
+                    "x": 370,
+                    "y": 140
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "cc938b45-212f-c2a4-4564-3d299ee2f2af": {
+            "attributes": {},
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "978dcd53-fbb4-8473-5ac1-0f0ff6fdc50f",
+                "src": "978dcd53-fbb4-8473-5ac1-0f0ff6fdc50f"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045": {
+            "attributes": {
+                "name": "FCO"
+            },
+            "base": null,
+            "meta": {
+                "attributes": {
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "children": {
+                    "minItems": [],
+                    "maxItems": [],
+                    "items": []
+                }
+            },
+            "parent": "03d36072-9e09-7866-cb4e-d0a36ff825f6",
+            "pointers": {
+                "base": null
+            },
+            "registry": {
+                "DisplayFormat": "$name",
+                "PortSVGIcon": "",
+                "SVGIcon": "",
+                "decorator": "UMLStateMachineDecorator",
+                "isAbstract": false,
+                "isPort": false,
+                "position": {
+                    "x": 61,
+                    "y": 51
+                },
+                "validVisualizers": "ModelEditor"
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "d03caa4f-aafe-6bba-9727-34d0dcf5ba8e": {
+            "attributes": {
+                "BufferSize": "100000",
+                "SamplingPeriod": "0.01",
+                "avg_data_size": "2",
+                "bandwidth_requirement": "1000",
+                "name": "TotolSamplingBuffer"
+            },
+            "base": "7d234277-52fb-20a3-a9e6-333f133e8ac8",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "7d234277-52fb-20a3-a9e6-333f133e8ac8"
+            },
+            "registry": {
+                "position": {
+                    "x": 9,
+                    "y": 220
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "d799addf-eb22-8471-0f3e-a5146ac905c8": {
+            "attributes": {
+                "name": "Language"
+            },
+            "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045",
+            "meta": {
+                "children": {
+                    "items": [
+                        "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045"
+                    ],
+                    "minItems": [
+                        -1
+                    ],
+                    "maxItems": [
+                        -1
+                    ]
+                }
+            },
+            "parent": "03d36072-9e09-7866-cb4e-d0a36ff825f6",
+            "pointers": {
+                "base": "cd891e7b-e2ea-e929-f6cd-9faf4f1fc045"
+            },
+            "registry": {
+                "isAbstract": false,
+                "position": {
+                    "x": 134,
+                    "y": 48
+                },
+                "validVisualizers": "METAAspect ModelEditor"
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "deddcf9b-e4de-8400-43d0-869ee6c6808e": {
+            "attributes": {
+                "AggregationTable": "",
+                "TaggingTable": "",
+                "name": "StreamPreProducer"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "AggregationTable": {
+                        "type": "string"
+                    },
+                    "TaggingTable": {
+                        "type": "string"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "Calculator.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 489,
+                    "y": 303
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "ed808f90-97c8-22cf-c3c1-bcd5d649a54f": {
+            "attributes": {
+                "event": "DataAccumulation"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "37fc4228-38c4-f0b6-bec9-4c4685b8c7fc",
+                "src": "37fc4228-38c4-f0b6-bec9-4c4685b8c7fc"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "f61f3ba5-029c-d771-7945-34eb2057bdf1": {
+            "attributes": {
+                "destination": "Database",
+                "name": "Consumer"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "destination": {
+                        "type": "string"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "CloudComputing.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 614,
+                    "y": 248
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "f7555169-3cbf-1412-a9c2-261ad52fda6e": {
+            "attributes": {
+                "bandwidth_requirement": "10",
+                "name": "Application1",
+                "processing_capacity": "500",
+                "transactional_speed": "100"
+            },
+            "base": "f61f3ba5-029c-d771-7945-34eb2057bdf1",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "f61f3ba5-029c-d771-7945-34eb2057bdf1"
+            },
+            "registry": {
+                "position": {
+                    "x": 754,
+                    "y": 348
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "f8fc18e6-db54-3cf1-51e5-df2a7693628f": {
+            "attributes": {
+                "ClickData": "",
+                "DeviceInfo": "PC",
+                "SequenceNum": 0,
+                "name": "Producer"
+            },
+            "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e",
+            "meta": {
+                "attributes": {
+                    "ClickData": {
+                        "type": "string"
+                    },
+                    "DeviceInfo": {
+                        "type": "string",
+                        "enum": [
+                            "PC",
+                            "Tablet",
+                            "CellPhone",
+                            "Others"
+                        ]
+                    },
+                    "SequenceNum": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "parent": "d799addf-eb22-8471-0f3e-a5146ac905c8",
+            "pointers": {
+                "base": "38b21b05-09bf-7181-0e1c-d7428e3d076e"
+            },
+            "registry": {
+                "SVGIcon": "SignalProcessor.svg",
+                "decorator": "ModelDecorator",
+                "isAbstract": false,
+                "position": {
+                    "x": 129,
+                    "y": 237
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        },
+        "fa8bb6c4-e21f-79b4-4840-422f30f44ae8": {
+            "attributes": {
+                "event": "SecondShardDataFlow"
+            },
+            "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+            "meta": {},
+            "parent": "5b3b0483-2413-f175-fa63-97d5e0851fba",
+            "pointers": {
+                "base": "6142e6db-2edb-439d-085a-4546ea60084e",
+                "dst": "1d560a80-82ae-c8db-fc6a-422afe4b39dd",
+                "src": "801844b3-d08a-5d71-f8f6-a943fccdd3de"
+            },
+            "registry": {
+                "position": {
+                    "x": 100,
+                    "y": 100
+                }
+            },
+            "sets": {},
+            "constraints": {}
+        }
+    },
+    "metaSheets": {}
+}

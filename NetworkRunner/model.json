@@ -1,0 +1,499 @@
+{
+    "stateMachine": {
+        "id": "/1829395557",
+        "name": "TaskScheduler",
+        "initialStates": [
+            "/1829395557/205934659",
+            "/1829395557/1742875111"
+        ],
+        "finalStates": [
+            "/1829395557/125845890",
+            "/1829395557/780844451",
+            "/1829395557/1083137865"
+        ],
+        "states": [
+            {
+                "id": "/1829395557/125845890",
+                "name": "Database(S3)",
+                "transitions": [],
+                "avg_data_size": 5,
+                "bandwidth_requirement": "100",
+                "processing_capacity": 1875,
+                "transactional_speed": "250",
+                "attributes": [
+                    [
+                        "transactional_speed",
+                        "name",
+                        "bandwidth_requirement",
+                        "processing_capacity",
+                        "destination",
+                        "data_blob",
+                        "avg_data_size"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity"
+                ]
+            },
+            {
+                "id": "/1829395557/168765480",
+                "name": "TotalPartitionKeyGenerator",
+                "transitions": [
+                    {
+                        "event": "PartitionKey",
+                        "targetId": "/1829395557/666163433",
+                        "targetName": "TotolSamplingBuffer"
+                    }
+                ],
+                "avg_data_size": 5,
+                "bandwidth_requirement": "100",
+                "processing_capacity": 15000,
+                "transactional_speed": "2000",
+                "attributes": [
+                    [
+                        "transactional_speed",
+                        "name",
+                        "bandwidth_requirement",
+                        "processing_capacity",
+                        "data_blob",
+                        "avg_data_size"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity"
+                ]
+            },
+            {
+                "id": "/1829395557/205934659",
+                "name": "MobileProducer",
+                "transitions": [
+                    {
+                        "event": "RawDataFlow",
+                        "targetId": "/1829395557/666163433",
+                        "targetName": "TotolSamplingBuffer"
+                    },
+                    {
+                        "event": "DataFlowReady",
+                        "targetId": "/1829395557/205934659",
+                        "targetName": "MobileProducer"
+                    }
+                ],
+                "avg_data_size": 5,
+                "bandwidth_requirement": 80,
+                "processing_capacity": 7500,
+                "transactional_speed": 1000,
+                "attributes": [
+                    [
+                        "name",
+                        "SequenceNum",
+                        "ClickData",
+                        "DeviceInfo",
+                        "transactional_speed",
+                        "bandwidth_requirement",
+                        "data_blob",
+                        "processing_capacity",
+                        "avg_data_size"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity",
+                    "bandwidth_requirement"
+                ]
+            },
+            {
+                "id": "/1829395557/265115298",
+                "name": "TotalShardProducer",
+                "transitions": [
+                    {
+                        "event": "FirstShardDataFlow",
+                        "targetId": "/1829395557/410188814",
+                        "targetName": "FirstOrderingBuffer"
+                    },
+                    {
+                        "event": "SecondShardDataFlow",
+                        "targetId": "/1829395557/1062358092",
+                        "targetName": "SecondOrderingBuffer"
+                    }
+                ],
+                "avg_data_size": "50",
+                "bandwidth_requirement": "1000",
+                "processing_capacity": 150000,
+                "transactional_speed": "2000",
+                "attributes": [
+                    [
+                        "transactional_speed",
+                        "name",
+                        "avg_data_size",
+                        "bandwidth_requirement",
+                        "MD5_Table",
+                        "ShardNum",
+                        "ShardTable",
+                        "data_blob",
+                        "processing_capacity"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity"
+                ]
+            },
+            {
+                "id": "/1829395557/410188814",
+                "name": "FirstOrderingBuffer",
+                "transitions": [
+                    {
+                        "event": "OrderedShardFlow",
+                        "targetId": "/1829395557/2024445629",
+                        "targetName": "TotalStreamProducer"
+                    }
+                ],
+                "avg_data_size": 5,
+                "bandwidth_requirement": "1000",
+                "processing_capacity": 7500,
+                "transactional_speed": 1000,
+                "attributes": [
+                    [
+                        "bandwidth_requirement",
+                        "name",
+                        "BufferSize",
+                        "OrderingRule",
+                        "transactional_speed",
+                        "data_blob",
+                        "processing_capacity",
+                        "avg_data_size"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity"
+                ]
+            },
+            {
+                "id": "/1829395557/666163433",
+                "name": "TotolSamplingBuffer",
+                "transitions": [
+                    {
+                        "event": "SampledDataFlow",
+                        "targetId": "/1829395557/265115298",
+                        "targetName": "TotalShardProducer"
+                    }
+                ],
+                "avg_data_size": "2",
+                "bandwidth_requirement": "1000",
+                "processing_capacity": 5000,
+                "transactional_speed": 1000,
+                "attributes": [
+                    [
+                        "bandwidth_requirement",
+                        "name",
+                        "SamplingPeriod",
+                        "avg_data_size",
+                        "BufferSize",
+                        "transactional_speed",
+                        "data_blob",
+                        "processing_capacity"
+                    ]
+                ],
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/780844451",
+                "name": "Application2",
+                "transitions": [],
+                "avg_data_size": "200",
+                "bandwidth_requirement": 320,
+                "processing_capacity": 30000,
+                "transactional_speed": "100",
+                "attributes": [
+                    [
+                        "transactional_speed",
+                        "name",
+                        "avg_data_size",
+                        "processing_capacity",
+                        "destination",
+                        "bandwidth_requirement",
+                        "data_blob"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity",
+                    "bandwidth_requirement"
+                ]
+            },
+            {
+                "id": "/1829395557/1062358092",
+                "name": "SecondOrderingBuffer",
+                "transitions": [
+                    {
+                        "event": "DataFlowReady",
+                        "targetId": "/1829395557/410188814",
+                        "targetName": "FirstOrderingBuffer"
+                    }
+                ],
+                "avg_data_size": 5,
+                "bandwidth_requirement": 64,
+                "processing_capacity": 6000,
+                "transactional_speed": "800",
+                "attributes": [
+                    [
+                        "transactional_speed",
+                        "name",
+                        "BufferSize",
+                        "OrderingRule",
+                        "bandwidth_requirement",
+                        "data_blob",
+                        "processing_capacity",
+                        "avg_data_size"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity",
+                    "bandwidth_requirement"
+                ]
+            },
+            {
+                "id": "/1829395557/1083137865",
+                "name": "Application1",
+                "transitions": [],
+                "avg_data_size": 5,
+                "bandwidth_requirement": "10",
+                "processing_capacity": 750,
+                "transactional_speed": "100",
+                "attributes": [
+                    [
+                        "transactional_speed",
+                        "name",
+                        "bandwidth_requirement",
+                        "processing_capacity",
+                        "destination",
+                        "data_blob",
+                        "avg_data_size"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity"
+                ]
+            },
+            {
+                "id": "/1829395557/1742875111",
+                "name": "Data Producer",
+                "transitions": [
+                    {
+                        "event": "RawDataFlow",
+                        "targetId": "/1829395557/666163433",
+                        "targetName": "TotolSamplingBuffer"
+                    },
+                    {
+                        "event": "DataAccumulation",
+                        "targetId": "/1829395557/1742875111",
+                        "targetName": "Data Producer"
+                    }
+                ],
+                "avg_data_size": "2",
+                "bandwidth_requirement": 10,
+                "processing_capacity": 5000,
+                "transactional_speed": 1000,
+                "attributes": [
+                    [
+                        "data_blob",
+                        "name",
+                        "ClickData",
+                        "avg_data_size",
+                        "SequenceNum",
+                        "DeviceInfo",
+                        "transactional_speed",
+                        "bandwidth_requirement",
+                        "processing_capacity"
+                    ]
+                ],
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1996059387",
+                "name": "TotalStreamPreProducer",
+                "transitions": [
+                    {
+                        "event": "TaggedStream1",
+                        "targetId": "/1829395557/780844451",
+                        "targetName": "Application2"
+                    },
+                    {
+                        "event": "TaggedStream2",
+                        "targetId": "/1829395557/125845890",
+                        "targetName": "Database(S3)"
+                    }
+                ],
+                "avg_data_size": "200",
+                "bandwidth_requirement": 3200,
+                "processing_capacity": 300000,
+                "transactional_speed": 1000,
+                "attributes": [
+                    [
+                        "avg_data_size",
+                        "name",
+                        "bandwidth_requirement",
+                        "TaggingTable",
+                        "AggregationTable",
+                        "transactional_speed",
+                        "data_blob",
+                        "processing_capacity"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity",
+                    "bandwidth_requirement"
+                ]
+            },
+            {
+                "id": "/1829395557/2024445629",
+                "name": "TotalStreamProducer",
+                "transitions": [
+                    {
+                        "event": "StreamFlow1",
+                        "targetId": "/1829395557/125845890",
+                        "targetName": "Database(S3)"
+                    },
+                    {
+                        "event": "StreamFlow2",
+                        "targetId": "/1829395557/1083137865",
+                        "targetName": "Application1"
+                    },
+                    {
+                        "event": "RawStreamFlow",
+                        "targetId": "/1829395557/1996059387",
+                        "targetName": "TotalStreamPreProducer"
+                    }
+                ],
+                "avg_data_size": "200",
+                "bandwidth_requirement": 6400,
+                "processing_capacity": 600000,
+                "transactional_speed": "2000",
+                "attributes": [
+                    [
+                        "bandwidth_requirement",
+                        "name",
+                        "transactional_speed",
+                        "avg_data_size",
+                        "out_bandwidth",
+                        "ShardNum",
+                        "StreamNameTable",
+                        "in-bandwidth",
+                        "data_blob",
+                        "processing_capacity"
+                    ]
+                ],
+                "improvements": [
+                    "processing_capacity",
+                    "bandwidth_requirement",
+                    "shard_num"
+                ],
+                "ShardNum": null
+            }
+        ],
+        "flows": [
+            {
+                "id": "/1829395557/123842415",
+                "flowLebel": "TaggedStream1",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/159661526",
+                "flowLebel": "RawDataFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/222802250",
+                "flowLebel": "OrderedShardFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/235091636",
+                "flowLebel": "TaggedStream2",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/296263275",
+                "flowLebel": "FirstShardDataFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/685131383",
+                "flowLebel": "DataFlowReady",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1099881058",
+                "flowLebel": "PartitionKey",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1169075607",
+                "flowLebel": "StreamFlow2",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1369917126",
+                "flowLebel": "StreamFlow1",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1422760723",
+                "flowLebel": "DataFlowReady",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1518111825",
+                "flowLebel": "RawStreamFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1673989009",
+                "flowLebel": "SecondShardDataFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1675041679",
+                "flowLebel": "DataAccumulation",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/1936623110",
+                "flowLebel": "SampledDataFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            },
+            {
+                "id": "/1829395557/2007012923",
+                "flowLebel": "RawDataFlow",
+                "bandwidth": 100,
+                "state": "Idle",
+                "improvements": []
+            }
+        ]
+    }
+}
